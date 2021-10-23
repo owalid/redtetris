@@ -1,0 +1,127 @@
+
+.d-flex {
+  display: flex;
+}
+
+.d-iflex {
+  display: inline-flex;
+}
+
+/* Flex direction */
+.fdir--row  {
+  flex-direction: row;
+} 
+.fdir--row-rev {
+  flex-direction: row-reverse;
+}
+.fdir--column {
+  flex-direction: column;
+}
+.fdir--column-rev {
+  flex-direction: column-reverse;
+}
+
+/* Justify content */
+.jcnt--flex-end {
+  justify-content: flex-end;
+}
+.jcnt--flex-start {
+  justify-content: flex-start;
+}
+.jcnt--center {
+  justify-content: center;
+}
+.jcnt--space-ar {
+  justify-content: space-around;
+}
+.jcnt--space-bet {
+  justify-content: space-between;
+}
+
+/* Align self */
+.aself--auto  {
+  align-self: auto;
+}
+.aself--fstart {
+  align-self: flex-start;
+}
+.aself--center {
+  align-self: center;
+}
+.aself--fend {
+  align-self: flex-end;
+}
+.aself--str {
+  align-self: stretch;
+}
+.aself--base {
+  align-self: baseline
+}
+
+/* Align items */
+.aitems--fs {
+  align-items: flex-start;
+}
+.aitems--center {
+  align-items: center;
+}
+.aitems--fe {
+  align-items: flex-end;
+}
+.aitems--s {
+  align-items: stretch;
+}
+.aitems--b {
+  align-items: baseline;
+}
+
+
+/* Flex wrap */
+.fwrp--no-wrp {
+  flex-wrap: nowrap;
+}
+.fwrp--wrp {
+  flex-wrap: wrap;
+}
+.fwrp--wrp-rev {
+  flex-wrap: wrap-reverse;
+}
+
+/* Flex grow */
+.fgrow--0 {
+  flex-grow: 0;
+}
+.fgrow--1 {
+  flex-grow: 1;
+}
+.fgrow--2 {
+  flex-grow: 2;
+}
+.fgrow--3 {
+  flex-grow: 3;
+}
+
+
+/* Flex shrink */
+.fshrink--0 {
+  flex-shrink: 0;
+}
+.fshrink--1 {
+  flex-shrink: 1;
+}
+.fshrink--2 {
+  flex-shrink: 2;
+}
+.fshrink--3 {
+  flex-shrink: 3;
+}
+
+
+/* Flex basis */
+.fbasis--a {
+  flex-basis: auto;
+}
+.fbasis--0 {
+  flex-basis: 0;
+}
+

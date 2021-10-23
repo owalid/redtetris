@@ -1,0 +1,16 @@
+version: '3.7'
+networks:
+  back-tier:
+    driver: bridge
+
+services:
+        client:
+                image: outyet
+                restart: always
+                expose:
+                        - "8080"
+                        - "3006"
+                ports:
+                         - 8080:8080
+                         - 3006:3006
+

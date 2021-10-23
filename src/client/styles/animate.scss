@@ -1,0 +1,30 @@
+.table-player {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+.initial-form-out {
+  animation-duration: 1s;
+  animation-name: slideout;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 110vh;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-top: 0%;
+  }
+  
+  to {
+    margin-top: 110vh;
+    display: none;
+  }
+}
+
